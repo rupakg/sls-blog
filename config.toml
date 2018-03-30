@@ -1,0 +1,12 @@
+# baseURL = "http://sls-comps.example.com/"
+languageCode = "en-us"
+title = "The Serverless Components"
+theme = "bleak"
+
+[params]
+  Subtitle = "easy, composable, open, serverless components"
+  cover = "/images/serverless-components.gif"
+
+[params.author]
+  firstName = "Rupak"
+  lastName = "Ganguly"

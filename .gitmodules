@@ -1,0 +1,3 @@
+[submodule "themes/bleak"]
+	path = themes/bleak
+	url = https://github.com/Zenithar/hugo-theme-bleak.git
