@@ -45,10 +45,10 @@ echo 'theme = "bleak"' >> config.toml
 Add posts:
 
 ```
-$ hugo new post/my-first-post.md
+$ hugo new post/hello-components.md
 ```
 
-Add any static files i.e. `html`, `css`, `js`, images etc. to the `static` folder. These files will be copied to the destination folder as-is.
+Add any static files i.e. `html`, `css`, `js`, images etc. to the `static` folder. These files will be copied 'as-is' to the destination folder.
 
 ## Configuration
 
@@ -57,9 +57,9 @@ To configure the site, edit the `config.toml` file as follows:
 ```
 # baseURL = "http://sls-comps.example.com/"
 languageCode = "en-us"
-title = "The Serverless Components"
+title = "The Serverless Components Blog"
 theme = "bleak"
-publishDir = "~/projects/prototype-v2/serverless-components/examples/blog/site"
+publishDir = "<target_publish_folder>"
 
 [params]
   Subtitle = "easy, composable, open, serverless components"
@@ -82,7 +82,7 @@ Once satisfied with the site, generate the static files at a specific destinatio
 $ hugo
 
 # To generate files to a specific destination folder
-$ hugo -d ~/projects/prototype-v2/serverless-components/examples/blog/site
+$ hugo -d <target_publish_folder>
 ```
 
 The generated static files can be deployed to any host.
